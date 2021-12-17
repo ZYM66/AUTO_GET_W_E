@@ -6,11 +6,11 @@ import time
 
 
 
-
+#ak的申请可以参考网上百度api使用方法
 data = pd.read_csv('医院.csv', encoding='gbk')
 col_1 = data['机构名称']
 data_1 = np.array(col_1)
-ak = 'ws8sWxM2eWTnH2TujUCBDd7mYvvvsi7c'
+ak = '在这里输入你的ak'
 count = 0
 dic = {}
 for info in data_1:
